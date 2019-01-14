@@ -1,0 +1,374 @@
+.wrapper{
+    width: 100%;
+    margin: auto;
+}
+body{
+    margin: 0px;
+    width: 100%;
+}
+@font-face{
+    font-family: 'my';
+    src: url(fonts/LeagueGothic-Regular.otf);
+}
+h1, h2, h3, h4, a, span {
+    font-family: 'my';
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+/* Начало меню */
+.header{
+    background: url(img/bg.jpg) top center no-repeat;
+    width: 100%;
+    margin: 0px;
+}
+.logo{
+    width: 20%;
+    float: left;   
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+.er{
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #765284, #332532 150%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'my';
+    font-size: 40px;
+}
+.pi{
+    text-shadow: 0px 2px 2px rgba(127, 127, 127, 0.73);
+    font-family: 'my';
+    font-size: 40px;
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul{
+    list-style-type: none;
+}
+.menu{
+    text-decoration: none;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.menu a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    text-shadow: 0px 2px 2px rgba(127, 127, 127, 0.73);
+}
+.menu a:after{
+    display: block; 
+    content: ""; 
+    height: 2px; 
+    width: 0%; 
+    background-color: #f9a1fc; 
+    transition: width 0.4s ease-in-out; 
+}
+.menu a:hover:after,
+.menu a:focus:after {
+    width: 100%;
+}
+.logo{
+    margin-top: 50px;
+}
+
+/* Конец меню */
+
+/* Слайдер начало */
+.slider{
+    width: 900px;
+}
+.bx-wrapper{
+    width: 100%!important;
+    background: none!important;
+    border: none!important;
+    background: rgba(41, 41, 41, 0.3)!important;
+}
+.slider1{
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: space-around!important;
+    align-items: center!important;
+    align-content: center!important;
+    position: none!important;
+    position: inherit!important;
+}
+.slider2{
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: space-around!important;
+    align-items: center!important;
+    align-content: center!important;
+    position: absolute;
+}
+.sl1{
+    margin-left: 30px!important;
+}
+.sl2{
+    margin-right: 30px!important;
+}
+.bx-wrapper{
+    box-shadow: none!important;
+}
+p.lod{
+    font-size: 45px;
+    color: white;
+    font-family: 'my';
+}
+p.itt{
+    font-size: 33px;
+    color: #fcc9f7;
+    margin-top: -20px;
+    font-family: 'my';
+}
+p.tue{
+    font-size: 33px;
+    color: #fcc9f7;
+    margin-top: -20px;
+    font-family: 'my';
+}
+span{
+    color: white!important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+)
+/* Слайдер конец */
+.center{
+    float: none;
+}
+.content{
+    background: linear-gradient(to bottom, #765284, #332532);
+}
+.about{
+    background: none;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: none;
+    text-align: center;
+}
+.about p{
+    color: white;
+}
+.about h3{
+    font-size: 30px;
+    color: white;
+}
+.about{
+    text-decoration: none;
+    color: white;
+}
+.our{
+    font-size: 20px;
+}
+h3{
+    text-align: left;
+}
+p.nunc{
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.caption a{
+    color: white;
+    text-decoration: none;
+}
+p.read{
+    margin-left: 30px;
+}
+.caption{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 30px;
+    left: -35px;
+}
+/* Информация конец */
+/* Страница 2 начало */
+.main{
+    background-image: url(img/bg-slider.png);
+    height: 200px;
+    width: 350px;
+    margin-right: 90px;
+    margin-top: 30px;
+    position: relative;
+}
+.sl__text{
+    margin: 30px;
+}
+.stranica2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgb(243, 243, 243);
+    height: 300px;
+}
+.iconka img{
+    float: left;
+    margin-right: 20px;
+}
+p.sl__desc{
+    font-size: 13px;
+}
+.recent{
+    margin-top: 10px;
+    margin-left: 90px;
+}
+.nuws{
+    width: 400px;
+}
+.more{
+    text-align: center;
+}
+.more a{
+    color: black;    
+    text-decoration: none;
+    font-size: 16px;
+}
+.recent h3{
+    font-size: 20px;
+}
+.sh{
+    color: #f6c2f8!important;
+    font-family: 'my';
+}
+.recent p{
+    font-size: 13px;
+    font-weight: normal;
+}
+.user{
+    position: absolute;
+    left: -30px;
+    top: 15px;
+}
+/* Страница 2 конец */
+.hr{
+    margin: 0px;
+}
+/* картинка футер начало */
+.footerpart{
+    text-align: center;
+    background: rgb(247, 247, 247);
+}
+.footerpart img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* Картинка футер конец */
+/* футер информация начало */
+.futer_listed{
+    background: rgb(231, 231, 231);
+}
+.about2{
+    background: none;
+    border: none;
+}
+.pi2{
+    color: #574e56!important;
+    font-family: 'my';
+    font-size: 50px;
+}
+.er2{
+    color: rgb(212, 212, 212)!important;
+    font-family: 'my';
+    font-size: 50px;
+}
+p.nunc2{
+    font-style: italic;
+    margin-top: -10px;
+}
+p.nunc3{
+    margin-top: -10px;
+}
+.caption h3{
+    font-size: 30px;
+}
+/* Конец футер информация */
+
+/* Начало футер дно */
+.footerend{
+    background: url(img/bg-footer.jpg) top center no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+@media (min-width: 900px) {
+	.end{
+		padding: 0;
+    	width: 900px;
+    }
+.menuend ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.desing{
+    margin-top: 30px;
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+.menuend{
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: -50px;
+}
+.menuend a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-shadow: 0px 2px 2px rgba(127, 127, 127, 0.73);
+}
+/* Конец футер дно */
+
+/* Якроь */
+#back-top {
+    bottom: 0px;
+    padding: 0px;
+    left: 50%;  
+    margin-left: 900px;
+    z-index:99991;
+    }
+#back-top a{
+    width: 77px;
+    height: 30px;
+    background: rgba(172, 172, 172, 0.25);
+    display:block;
+    text-decoration:none;
+    -webkit-transition: all linear 0.2s; 
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    text-align: center;
+     
+    }
+ 
+#back-top a:hover{
+    height: 70px;
+    background: linear-gradient(to bottom, #765284, #332532);
+    -webkit-transition: all linear 0.2s; 
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    color: #fff;
+    }
+#back-top i{
+    font-size: 60px;
+    color: white;
+}

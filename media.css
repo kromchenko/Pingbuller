@@ -1,0 +1,208 @@
+*{
+    transition: all .2s;
+}
+
+@media only screen and (max-width: 1000px){
+    .wrapper{
+        width: 750px;
+    }
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .er{
+        font-size: 30px;
+    }
+    .pi{
+        font-size: 30px;
+    }
+    .slider{
+        width: 750px;
+    }
+    .content{
+        width: 650px;
+    }
+
+    .stranica2{
+        display: none;
+    }
+    p.lod{
+        font-size: 20px;
+    }
+    p.itt{
+        font-size: 18px;
+    }
+    p.tue{
+        font-size: 18px;
+    }
+    span{
+        font-size: 15px;
+    }
+    .sl2{
+        display: none;
+    }
+    .slider1{
+        width: 450px;
+    }
+    .bx-wrapper{
+        width: 50%;
+    }
+    .sl1{
+        margin: 0px;
+    }
+    .sl2{
+        margin-right: 0px;
+    }
+    .about h3{
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .our{
+        font-size: 16px;
+    }
+    p.nunc{
+        margin-left: 30px;
+        padding-top: 0px;
+        padding-bottom: 0px;   
+    }
+    p.read{
+        margin-left: 0px;
+    }
+    .icon{
+        left: 0px;
+    }
+    .footerpart img{
+        width: 450px;
+    }
+    .content{
+        width: 750px;}
+    .menuend{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .menuend a{
+        text-decoration: none;
+        color: white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .end{
+        width: 750px;
+    }
+}
+
+/* средние экраны */
+
+@media only screen and (max-width: 768px){
+    .wrapper{
+        width: 450px;
+    }
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .er{
+        font-size: 20px;
+    }
+    .pi{
+        font-size: 20px;
+    }
+    .slider{
+        width: 450px;
+    }
+    .content{
+        width: 450px;
+    }
+    .menuend{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .stranica2{
+        display: none;
+    }
+    p.lod{
+        font-size: 16px;
+    }
+    p.itt{
+        font-size: 14px;
+    }
+    p.tue{
+        font-size: 14px;
+    }
+    span{
+        font-size: 13px;
+    }
+    .sl2{
+        display: none;
+    }
+    .slider1{
+        width: 250px;
+    }
+    .bx-wrapper{
+        width: 30%;
+    }
+    .sl1{
+        margin: 0px;
+    }
+    .sl2{
+        margin-right: 0px;
+    }
+    .about h3{
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .our{
+        font-size: 16px;
+    }
+    p.nunc{
+        margin-left: 30px;
+        padding-top: 0px;
+        padding-bottom: 0px;   
+    }
+    p.read{
+        margin-left: 0px;
+    }
+    .icon{
+        left: 0px;
+    }
+    .footerpart img{
+        width: 250px;
+    }
+    .menuend a{
+        text-decoration: none;
+        color: white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .end{
+        width: 450px;
+    }
+}
+
+@media (min-width: 768px){
+    .slider1{
+        height: 300px;
+    }    
+}
+
+@media (min-width: 468px){
+    .slider1{
+        height: 300px;
+    }    
+}
+
+@media (min-width: 900px) {
+	.container{
+		padding: 0;
+    	width: 900px;
+    }
+    
+    @media (min-width: 900px) {
+        .end{
+            padding: 0;
+            width: 900px;
+        }
